@@ -72,12 +72,14 @@ section.image > p{
     text-shadow: 1px 1px 1px;
     background-color: rgba(0, 0, 0, 0.504);
     color: white;
-    width: 400px;
+    width: 310px;
     border-radius: 10px;
     padding: 10px;
 }
 
 section#img1{
+    width: 100%;
+    z-index: -1;
     background-image: url(imagens/background001.jpg);
     background-position: right ;
     background-size: cover;
@@ -85,6 +87,8 @@ section#img1{
 }
 
 section#img2{
+    width: 100%;
+    z-index: -1;
     background-image: url(imagens/background002.jpg);
     background-position: center;
     background-size: cover;
