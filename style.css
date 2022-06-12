@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root{
+    --font-default: 
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -17,6 +21,10 @@
     src: url(fonts/Sriracha-Regular.ttf);
 }
 
+body, html{
+    font-family: var(--font-default);
+}
+
 header{
     font-family: Passion;
     background-color: black;
@@ -27,7 +35,7 @@ header{
 
 header > h1{
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 10vh;
 }
 
 header > p > a{
@@ -38,6 +46,7 @@ header > p > a{
 }
 
 section{
+    font-size: 4vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
