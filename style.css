@@ -19,7 +19,6 @@
 
 header{
     font-family: Passion;
-    max-width: 100%;
     background-color: black;
     color: white;
     text-align: center;
@@ -27,21 +26,57 @@ header{
 }
 
 header > h1{
+    font-variant: small-caps;
     font-size: 3em;
 }
+
+header > p > a{
+    font-family: Passion;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
 section{
-    width: 50%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    width: 100%;
+    background-color: red;
+    padding-left: 30px;
 }
 
 section > p{
     font-family: Sriracha;
-    padding: 20px;
-    font-size: 1.2em;
-
-}
-
-.img1 > img{
-    width: 100%;
+    
     
 }
 
+section.image{
+    background-color: gray;
+}
+
+section.image > p{
+    background-color: rgba(0, 0, 0, 0.412);
+    color: white;
+    width: 400px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer > a {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Passion;
+    color: white;
+}
+
+footer > a:hover, header > p > a:hover{
+    text-decoration: underline;
+}
