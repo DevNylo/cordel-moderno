@@ -1,5 +1,6 @@
-# cordel-moderno
+# <a href="https://devnylo.github.io/cordel-moderno/">Cordel Moderno</img>
 
-Site criado em 11/06/2022 para estudo de responsívidade e efeito parallax.
+<img
+
 
 Efeito parallax não funciona em dispositivos móveis... Talvez um JS resolva.
